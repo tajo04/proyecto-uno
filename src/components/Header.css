@@ -1,0 +1,15 @@
+/* Header.css */
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* Asegura que el header ocupe todo el ancho */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    margin: 0; /* Elimina márgenes externos */
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
