@@ -1,12 +1,11 @@
-// Header.js
-import './Header.css'; // Asegúrate de que la ruta sea correcta
+import React from 'react';
 
-const Header = () => {
-    return (
-      <header>
-        <h1>FISICOCULTURISMO</h1>
-      </header>
-    );
-};
+function Header() {
+  return (
+    <header className="header">
+      <h1>FISICOCULTURISMO</h1>
+    </header>
+  );
+}
 
 export default Header;
